@@ -1,4 +1,19 @@
-CONFIG_LOCALVERSION="-perf"
+# other dtb for trinket devices
+CONFIG_BACKLIGHT_LM3697=y
+CONFIG_SOFIA_DTB=y
+CONFIG_SOFIAP_DTB=y
+
+# Support for doha
+#
+# CONFIG_DOHA_DTB is not set
+# CONFIG_BACKLIGHT_QCOM_SPMI_WLED=y
+
+# Support for roma
+#
+# CONFIG_ROMA_DTB=y
+
+
+CONFIG_LOCALVERSION="-Hyper.kernel-Moto-Trinket-Seba_3567"
 # CONFIG_LOCALVERSION_AUTO is not set
 # CONFIG_FHANDLE is not set
 CONFIG_AUDIT=y
